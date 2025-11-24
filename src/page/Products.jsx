@@ -1,5 +1,4 @@
 import { memo } from 'react';
-import Header from '../components/Header';
 import HeroSection from '../components/Hero';
 import ProductGrid from '../components/Product';
 import Our from '../components/Our';

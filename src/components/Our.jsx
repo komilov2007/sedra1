@@ -11,7 +11,6 @@ export default function BlogSection() {
           Go to our blog
         </button>
       </div>
-
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="bg-[#eef6ee] p-6 rounded-3xl shadow flex flex-col md:flex-row items-center gap-6">
           <div className="flex-1">
@@ -30,7 +29,6 @@ export default function BlogSection() {
 
           <img src={Opa} className="w-48 h-auto object-contain" />
         </div>
-
         <div className="bg-[#eef0f7] p-6 rounded-3xl shadow flex flex-col justify-between">
           <div>
             <p className="text-gray-500 text-sm mb-2">12.09.2021</p>
@@ -45,11 +43,8 @@ export default function BlogSection() {
               Read
             </button>
           </div>
-
           <img src={Opa} className="w-52 h-auto object-contain self-end" />
         </div>
-
-        {/* SMALL CARDS */}
         <div className="bg-[#f2f4f3] p-6 rounded-3xl shadow">
           <p className="text-gray-500 text-sm mb-2">12.09.2021</p>
           <h3 className="text-lg font-semibold text-[#1c1c1c] leading-snug mb-3">
@@ -60,7 +55,6 @@ export default function BlogSection() {
             Read
           </button>
         </div>
-
         <div className="bg-[#f2f4f3] p-6 rounded-3xl shadow">
           <p className="text-gray-500 text-sm mb-2">12.09.2021</p>
           <h3 className="text-lg font-semibold text-[#1c1c1c] leading-snug mb-3">
